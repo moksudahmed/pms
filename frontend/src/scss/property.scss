@@ -1,0 +1,45 @@
+// =========================================================
+// * Property Management Software
+// =========================================================
+
+// * Product Page: https://example.vom
+// * Copyright 2023 (https://www.example.com)
+// * Official Repository: https://example.vom
+// * License: MIT License (https://example.com/licensing)
+
+// * Designed and coded by https://example.com
+
+// =========================================================
+
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+// Bootstrap mixins and functions
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Change variables here
+@import "property/variables";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Vendor
+@import "property/vendor";
+
+// property mixins & functions
+@import "property/mixins";
+@import "property/functions";
+
+// Utilities
+@import "property/reboot";
+@import "property/utilities";
+
+// Layout
+@import "property/layout";
+
+// Components
+@import "property/components";
+
+// write your custom styles here!
